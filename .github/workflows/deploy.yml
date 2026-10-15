@@ -1,3 +1,4 @@
+
 name: Deploy Flutter Web to GitHub Pages
 
 on:
@@ -31,7 +32,7 @@ jobs:
         run: flutter pub get
 
       - name: Build Flutter Web
-        run: flutter build web --release --base-href "/finals_lab_exam/"
+        run: flutter build web --release --base-href "/Post-Reader-Favorites/"
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
